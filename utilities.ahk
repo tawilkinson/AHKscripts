@@ -3,6 +3,11 @@
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetTitleMatchMode 3  ; Exact matching to avoid confusing T/B with Tab/Backspace.
 
+; Media keys
+^!Space::Send       {Media_Play_Pause}
+^!Left::Send        {Media_Prev}
+^!Right::Send       {Media_Next}
+
 ; Google Search select text - Ctrl + Shift + C
  ^+c::
  {
