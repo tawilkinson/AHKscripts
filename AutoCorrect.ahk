@@ -1,4 +1,4 @@
-;------------------------------------------------------------------------------
+﻿;------------------------------------------------------------------------------
 ; CHANGELOG:
 ; 
 ; Sep 13 2007: Added more misspellings.
@@ -332,7 +332,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::canapes::canapés
 ::celebre::célèbre
 ::celebres::célèbres
-::chaines::chaînés
+::chaines::chaîné
 ::cinema verite::cinéma vérité
 ::cinemas verite::cinémas vérité
 ::cinema verites::cinéma vérités
@@ -368,6 +368,7 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::creme caramels::crème caramels
 ::creme de cacao::crème de cacao
 ::creme de menthe::crème de menthe
+::creme fraiche::crème fraîche
 ::crepe::crêpe
 ::crepes::crêpes
 ::creusa::Creüsa
