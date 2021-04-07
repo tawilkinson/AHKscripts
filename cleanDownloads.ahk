@@ -1,9 +1,9 @@
 EnvGet, upenv, USERPROFILE
 
-MsgBox, 64, Done, %path%
+MsgBox, 64, Done, %USERPROFILE%\Downloads
 counter := 0
 
-loop, %path%\*.*, 1, 0
+loop, %USERPROFILE%\Downloads\*.*, 1, 0
 {
     today = %A_Now%
     EnvSub, today, %A_LoopFileTimeModified%, days
