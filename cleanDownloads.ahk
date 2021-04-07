@@ -10,7 +10,7 @@ loop, %path%\*.*, 1, 0
     if (today > 60)
     {
         FileRecycle, %A_LoopFileLongPath%
-		counter++
+        counter++
     }	
 }
 MsgBox, 64, Done, Scan completed`, %counter% files recycled 
