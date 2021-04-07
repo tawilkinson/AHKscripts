@@ -19,7 +19,7 @@ SetTitleMatchMode 3 ; Exact matching to avoid confusing T/B with Tab/Backspace.
 return
 
 ; Clean Downloads call, requires cleanDownloads.ahk
-; Ctrl + Alt + 0
+; Ctrl + Alt + X
 ^!x::
     Run %A_ScriptDir%\cleanDownloads.ahk
 return
