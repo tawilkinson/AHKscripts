@@ -18,7 +18,13 @@ SetTitleMatchMode 3 ; Exact matching to avoid confusing T/B with Tab/Backspace.
     }
 return
 
-; Open PowerShell to current Explorer dir
+; Clean Downloads call, requires cleanDownloads.ahk
+; Ctrl + Alt + 0
+^!x::
+    Run %A_ScriptDir%\cleanDownloads.ahk
+return
+
+; Open PowerShell to current Explorer dir - Ctrl + Alt + H
 #IfWinActive ahk_class CabinetWClass ; for use in explorer.
 ^!h::
     ClipSaved := ClipboardAll
